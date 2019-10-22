@@ -1,2 +1,2 @@
-# learning-git-shared
+# Learning Git-Shared
 introduction to Git
