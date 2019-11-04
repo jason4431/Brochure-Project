@@ -1,2 +1,2 @@
-# Learning Git-Shared
-Introduction to Git
+# Brochure-Project
+This is a brochure project by Jason and Tim
