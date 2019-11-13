@@ -1,0 +1,35 @@
+// Wrapper Styles
+
+.wrapper-home {
+    margin: auto;
+    max-width: 1240px;
+}
+
+.intro {
+    padding: 50px 30px 0;
+}
+
+.menu-h2, .appetizer h2, .main h2, .liquor h2 {
+    text-align: center;
+}
+
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.appetizer-col li, .main-col li, .liquor-col li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.appetizer-col ul, .main-col ul, .liquor-col ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.appetizer-col, .main-col, .liquor-col {
+    padding: 0 20px;
+}

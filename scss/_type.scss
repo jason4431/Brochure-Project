@@ -1,0 +1,14 @@
+// Type Styles
+
+a, h1, h2, h3, p, li, address {
+    color: $text-color;
+    font-family: 'Fira Sans';
+}
+
+.btn-menu {
+    color: $text-color;
+}
+
+li { 
+    list-style: none;
+}
