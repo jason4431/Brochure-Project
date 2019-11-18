@@ -55,6 +55,7 @@
     flex-direction: column;
 }
 
+
 .appetizer-col li, .main-col li, .liquor-col li {
     display: flex;
     justify-content: space-between;
@@ -62,10 +63,23 @@
 }
 
 .appetizer-col ul, .main-col ul, .liquor-col ul {
+    max-width: 500px;
+    margin: 0 auto;
     list-style: none;
     padding-left: 0;
 }
 
 .appetizer-col, .main-col, .liquor-col {
     padding: 0 20px;
+}
+
+// Wrapper About
+
+.about-drawing {
+    margin: 30px auto 0;
+    width: 300px;
+}
+
+.about-text {
+    color: $text-color;
 }
