@@ -28,10 +28,19 @@
 }
 // Wrapper Menu
 
+.wrapper-menu {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
 .menu-h2, .appetizer h2, .main h2, .liquor h2 {
     text-align: center;
 }
 
+.menu-h2 {
+    max-width: 1240px;
+    margin: 0 auto;
+}
 .line-01 {
     padding: 0 50px;  
 }
