@@ -11,8 +11,6 @@
     padding: 30px 20px 0;
 }
 
-
-
 .outro {
     padding: 10px 20px;
 }
@@ -49,21 +47,38 @@
     flex-direction: column;
 }
 
+.appetizer,
+.main,
+.liquor {
+    margin-top: 50px;
+}
 
-.appetizer-col li, .main-col li, .liquor-col li {
+.appetizer-col,
+.main-col,
+.liquor-col {
+    margin-top: 50px;
+}
+
+.appetizer-col li, 
+.main-col li, 
+.liquor-col li {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
 }
 
-.appetizer-col ul, .main-col ul, .liquor-col ul {
+.appetizer-col ul, 
+.main-col ul, 
+.liquor-col ul {
     max-width: 500px;
     margin: 0 auto;
     list-style: none;
     padding-left: 0;
 }
 
-.appetizer-col, .main-col, .liquor-col {
+.appetizer-col, 
+.main-col, 
+.liquor-col {
     padding: 0 20px;
 }
 
