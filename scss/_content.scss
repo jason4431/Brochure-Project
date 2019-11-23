@@ -1,17 +1,25 @@
 // Content Styles
 
-.h-content {
-    position: relative;
+
+.h-content img {
+    padding: 0;
+    width: 100%;
+    border: solid 1px white;
 }
 
 .h-col-1,
 .h-col-2,
 .h-col-3  {
     position: relative;
+    margin: 0 auto;
+    width: 350px;
+    padding-top: 10px;  
 }
 .h-col-1 p,
 .h-col-2 p,
 .h-col-3 p {
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 5px 10px;
     color: white;
     position: absolute;
     top: 50%;
