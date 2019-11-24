@@ -34,10 +34,28 @@
             <div class="about-drawing">
                 <img src="/images/logos/epic_pocha-illustration.svg" alt="Bowl with Soju">
             </div>
-            <div class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci dicta magni minima, nulla quisquam pariatur, nihil esse vero animi tempora debitis eaque sed itaque modi! Dignissimos delectus cumque amet qui consequuntur obcaecati porro fuga quisquam, hic nostrum expedita eum maxime atque. Quis nisi ratione doloribus quo quos id vero voluptatibus totam vel laborum, culpa ipsam inventore, cumque assumenda similique autem nemo voluptas veritatis adipisci, itaque molestiae! Tempore iusto totam maxime architecto voluptatem accusamus molestiae eligendi doloribus ipsa ratione et magnam alias deleniti debitis ea distinctio repellendus, id qui veritatis! Mollitia laboriosam voluptatibus, ipsum veniam accusantium similique totam debitis reprehenderit earum doloribus cum, blanditiis id aliquid odit consequatur fugit inventore. Ipsa repellendus accusantium labore dignissimos, doloremque ratione cupiditate beatae omnis, laudantium, eligendi illo alias sunt pariatur! Nobis autem nostrum pariatur rem quia amet, deleniti, perspiciatis nulla nihil ab magnam unde numquam eligendi accusantium cumque reprehenderit! Rem sit dicta quas modi similique?
-            </div>
-        </div>
+            <div class="about-form">
+                <form action="/action_page.php">
+                    <p>Please select your occasion:</p>
+                        <input type="radio" name="occasion" value="Birthday"> Birthday<br>
+                        <input type="radio" name="occasion" value="Graduation"> Graduation<br>
+                        <input type="radio" name="occasion" value="Marriage-related"> Marriage-related<br>  
+                        <input type="radio" name="occasion" value="other"> Other<br>  
+                        <input type="submit" value="Submit">
+                </form>
+                <div class="about-checkbox">
+                    <p>Are you over 19+?</p>
+                    <label class="container">Yes
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    </label>
+                    <label class="container">No
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div><!-- End of about-form-->
+        </div><!--End pf wrapper-about-->
     </main>
 
     <footer>
