@@ -8,7 +8,7 @@
 }
 
 .intro {
-    padding: 30px 20px 0;
+    padding: 20px 20px 0;
 }
 
 .outro {
@@ -16,7 +16,15 @@
 }
 
 @media (min-width: 750px) {
+    .intro,
+    .outro {
+        text-align: center;
+    }
 
+}
+
+@media (min-width: 1000px) {
+    
 }
 // Wrapper Menu
 

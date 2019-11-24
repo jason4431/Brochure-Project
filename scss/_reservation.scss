@@ -1,7 +1,7 @@
 // Reservation Styles
 
 .about-form {
-    background-color: #fff;
+    border: solid 2px $text-color;
     width: 350px;
     margin: 30px auto 0;
     display: flex;
@@ -9,21 +9,26 @@
     align-items: center; 
 }
 
+.name {
+    margin-top: 20px;
+    color: $text-color;
+}
+
 input[value] {
-    color: red;
+    color: $text-color;
 }
 
 input[radio] {
-    color: red;
+    color: $text-color;
 }
 
 .about-radio {
-    color: red;
+    color: $text-color;
     line-height: 1.7em;
 }
 
 .about-checkbox {
-    color: red;
+    color: $text-color;
 }
 
 .about-form p {
@@ -33,4 +38,17 @@ input[radio] {
 .submit-button {
     margin-top: 30px;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit-button input {
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: solid 2px $text-color;
+}
+.about-time select {
+    width: 300px;
+    height: 30px;
+
 }

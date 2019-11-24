@@ -35,13 +35,17 @@
                 <img src="/images/logos/epic_pocha-illustration.svg" alt="Bowl with Soju">
             </div>
             <div class="about-form">
+                <div class="name">
+                    <form name="myForm" action="/action_page.php" method="get">
+                        First name: <input type="text" name="fname">
+                </div>
                 <div class="about-radio">
                     <p>Number of guests:</p>
                         <input type="radio" name="occasion" value="Birthday"> 1 ~ 4<br>
                         <input type="radio" name="occasion" value="Graduation"> 5 ~ 8<br>
                         <input type="radio" name="occasion" value="Marriage-related"> 9 ~ 12 <br>  
                         <input type="radio" name="occasion" value="other"> More <br>  
-                </div>
+                </div><!--End of about-radio-->
                 <div class="about-checkbox">
                     <p>Diet Restrictions</p>
                     <input type="checkbox" checked="checked">
@@ -56,9 +60,22 @@
                     <label class="container">Dairy-free
                     <span class="checkmark"></span>
                     </label>
+                </div><!--End of about-checkbox-->
+                <div class="about-time">
+                    <p>What time would you like to join us?</p>
+                    <select>
+                        <option value="time">6:00PM</option>
+                        <option value="time">6:30PM</option>
+                        <option value="time">7:00PM</option>
+                        <option value="time">7:30PM</option>
+                        <option value="time">8:00PM</option>
+                        <option value="time">8:30PM</option>
+                        <option value="time">9:00PM</option>
+                        <option value="time">9:30PM</option>
+                    </select>
+                </div><!--End of about-time-->
                 <div class="submit-button">
-                    <input type="submit" value="Submit">
-                </div>
+                        <input type="submit" value="Submit">
                 </div>
             </div><!-- End of about-form-->
         </div><!--End pf wrapper-about-->

@@ -38,3 +38,23 @@ nav {
     color: white;
     transition: .7s 0s;
 }
+
+@media (min-width: 1000px) {
+    .btn-menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: 500px;
+        }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-bar {
+        display: flex;
+    }
+}
