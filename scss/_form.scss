@@ -11,7 +11,7 @@ legend {
     font-weight: 600;
     color: $text-color;
     padding-bottom: 25px;
-    }
+}
 
 .form-group {
     padding-bottom: 30px;
@@ -32,7 +32,6 @@ legend {
 
     ::placeholder {
         color: $text-hover;
-
     }
 }
 
@@ -42,6 +41,24 @@ legend {
     flex-wrap: wrap;
 
 }
+
+.message-box {
+    height: 200px;
+    resize: none;
+
+    textarea {
+        height: 99%;
+        width: 99%;
+        resize: none;
+        color: $text-color;
+        border: none;
+        background-color: $body-bg-color;
+    }
+
+}
+
+
+
 
 
 
