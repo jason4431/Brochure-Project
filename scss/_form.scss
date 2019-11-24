@@ -1,0 +1,47 @@
+// form styles on the Contact page
+
+.page-forms {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+legend {
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    color: $text-color;
+    padding-bottom: 25px;
+    }
+
+.form-group {
+    padding-bottom: 30px;
+}
+
+.form-box {
+    width: auto;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid $text-color;
+    
+    input[type=text] {
+        width: 100%;
+        color: $text-color;
+        border: none;
+        background-color: $body-bg-color;
+    }
+
+    ::placeholder {
+        color: $text-hover;
+
+    }
+}
+
+.name-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
