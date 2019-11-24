@@ -1,0 +1,36 @@
+// Reservation Styles
+
+.about-form {
+    background-color: #fff;
+    width: 350px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+input[value] {
+    color: red;
+}
+
+input[radio] {
+    color: red;
+}
+
+.about-radio {
+    color: red;
+    line-height: 1.7em;
+}
+
+.about-checkbox {
+    color: red;
+}
+
+.about-form p {
+    text-align: center;
+}
+
+.submit-button {
+    margin-top: 30px;
+    text-align: center;
+}

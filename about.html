@@ -35,24 +35,30 @@
                 <img src="/images/logos/epic_pocha-illustration.svg" alt="Bowl with Soju">
             </div>
             <div class="about-form">
-                <form action="/action_page.php">
-                    <p>Please select your occasion:</p>
-                        <input type="radio" name="occasion" value="Birthday"> Birthday<br>
-                        <input type="radio" name="occasion" value="Graduation"> Graduation<br>
-                        <input type="radio" name="occasion" value="Marriage-related"> Marriage-related<br>  
-                        <input type="radio" name="occasion" value="other"> Other<br>  
-                        <input type="submit" value="Submit">
-                </form>
+                <div class="about-radio">
+                    <p>Number of guests:</p>
+                        <input type="radio" name="occasion" value="Birthday"> 1 ~ 4<br>
+                        <input type="radio" name="occasion" value="Graduation"> 5 ~ 8<br>
+                        <input type="radio" name="occasion" value="Marriage-related"> 9 ~ 12 <br>  
+                        <input type="radio" name="occasion" value="other"> More <br>  
+                </div>
                 <div class="about-checkbox">
-                    <p>Are you over 19+?</p>
-                    <label class="container">Yes
+                    <p>Diet Restrictions</p>
                     <input type="checkbox" checked="checked">
+                    <label class="container">Vegetarian       
                     <span class="checkmark"></span>
                     </label>
-                    <label class="container">No
                     <input type="checkbox">
+                    <label class="container">Gluten-free 
                     <span class="checkmark"></span>
                     </label>
+                    <input type="checkbox">
+                    <label class="container">Dairy-free
+                    <span class="checkmark"></span>
+                    </label>
+                <div class="submit-button">
+                    <input type="submit" value="Submit">
+                </div>
                 </div>
             </div><!-- End of about-form-->
         </div><!--End pf wrapper-about-->
