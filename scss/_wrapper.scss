@@ -28,6 +28,10 @@
 }
 // Wrapper Menu
 
+hr {
+   border: solid 1px $text-color;
+}
+
 .wrapper-menu {
     max-width: 1240px;
     margin: 0 auto;
