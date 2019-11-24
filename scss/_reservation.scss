@@ -1,17 +1,27 @@
 // Reservation Styles
 
+
 .about-form {
+    padding: 0 20px;
+    font-size: 1.2em;
     border: solid 2px $text-color;
     width: 350px;
-    margin: 30px auto 0;
+    margin: 50px auto 0;
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
 .name {
+    line-height: 2em;
     margin-top: 20px;
+    text-align: center;
     color: $text-color;
+}
+
+.name input {
+    width: 300px;
+    height: 20px;
 }
 
 input[value] {
@@ -50,5 +60,11 @@ input[radio] {
 .about-time select {
     width: 300px;
     height: 30px;
+}
 
+@media (min-width: 750px){
+    .about-form {
+        width: 500px;
+        font-size: 1.6em;
+    }
 }
