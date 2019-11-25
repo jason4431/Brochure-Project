@@ -14,9 +14,10 @@
 
 .name {
     line-height: 2em;
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
     color: $text-color;
+    line-height: .5em;
 }
 
 .name input {
@@ -34,10 +35,12 @@ input[radio] {
 
 .about-radio {
     color: $text-color;
-    line-height: 1.7em;
+    line-height: 1.3em;
+    text-align: center;
 }
 
 .about-checkbox {
+    margin-top: 10px;
     color: $text-color;
 }
 
@@ -52,11 +55,18 @@ input[radio] {
 }
 
 .submit-button input {
-    padding: 5px 10px;
-    background-color: transparent;
+    padding: 7px 12px;
+    background-color: $text-color;
+    color: white;
     border-radius: 25px;
-    border: solid 2px $text-color;
+    border: solid 2px black;
+    font-size: .6em;
 }
+
+.about-time {
+    margin-top: 10px;
+}
+
 .about-time select {
     width: 300px;
     height: 30px;
@@ -67,4 +77,27 @@ input[radio] {
         width: 500px;
         font-size: 1.6em;
     }
+
+    .about-time select {
+        margin-left: 30px;
+    }
+
+    .submit-button input {
+        padding: 10px 20px;
+        font-size: .7em;
+    }
+
+    .about-time select {
+        width: 400px;
+        height: 40px;
+        font-size: .7em;
+    }
+
+    .name input {
+        width: 350px;
+        height: 30px;
+}
+    
+    
+    
 }
